@@ -8,7 +8,7 @@ def index():
 
 @application.route('/ex1')
 def exercise1():
-    return render_template('ex1.html', title='Mini Project 1 Exercise 1')
+    return render_template('ex1.html', this_thing='Mini Project 1 Exercise 1')
 
 @application.route('/ex2')
 def exercise2():
