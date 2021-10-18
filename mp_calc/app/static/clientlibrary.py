@@ -4,7 +4,7 @@ import time
 class AnswerTime:
 	def __init__(self, question_id):
 		self.id = question_id
-		self.start = time.time()
+		self.start = time.time_ns()
 		self.end = -1
 
 	@property
